@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Logistics</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #1a237e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #283593;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .cta {
+      background-color: #1a237e;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer {
+      background-color: #212121;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .services, .why-us {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    @media (max-width: 768px) {
+      .services, .why-us {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prince Logistics</h1>
+    <p>Your Goods, Our Crown – Delivered With Pride 👑</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#whyus">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Prince Logistics is an asset-light logistics solution provider. We don't own trucks, but we manage a verified network of transporters to ensure your goods are delivered safely and on-time. Our mission is to make transport simple, affordable and reliable across India.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="box">Full Truck Load (FTL)</div>
+      <div class="box">Part Load Services</div>
+      <div class="box">Express Cargo Delivery</div>
+      <div class="box">Route-Based Booking</div>
+    </div>
+  </section>
+
+  <section id="whyus">
+    <h2>Why Choose Us?</h2>
+    <div class="why-us">
+      <div class="box">Verified Transporter Network</div>
+      <div class="box">No Middleman Commission</div>
+      <div class="box">On-Time Delivery</div>
+      <div class="box">Safe & Reliable</div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <h2>Need Goods Transported?</h2>
+    <p>Contact Prince Logistics today and let's get your cargo moving!</p>
+    <p><strong>Call / WhatsApp: +91-9513135888</strong></p>
+  </div>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> princelogistics@gmail.com</p>
+    <p><strong>Address:</strong> Your Company Address, City, State, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prince Logistics. All rights reserved.</p>
+  </footer>
+</body>
+</html>
